@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+  background: url("../images/morocco.png");
 }
 
 * {
@@ -41,7 +41,7 @@ h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: #74c0d1;
 }
 
 h1 {
@@ -78,7 +78,7 @@ h3 {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #74c0d1;
 }
 
 nav {
@@ -109,7 +109,7 @@ footer {
   color: #cccccc;
   text-align: center;
   background: #666666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #74c0d1;
   height: 50px;
 }
 
@@ -166,7 +166,7 @@ h3, h2 {
   line-height: 30px;
   color: #ffffff;
   text-align: center;
-  background: #4aaaa5;
+  background: #74c0d1;
   border-bottom: 0;
 }
 
@@ -215,7 +215,7 @@ input[type=submit] {
   font-size: 18px;
   color: #ffffff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: #74c0d1;
   border: 0 none;
 }
 @media screen and (max-width: 980px) {
@@ -290,7 +290,7 @@ input[type=submit] {
     text-align: center;
     overflow: auto;
     clear: both;
-    background:#4aaaa5;
+    background:#74c0d1;
     position: fixed;
     top: 0;
   } 
@@ -310,11 +310,19 @@ input[type=submit] {
     margin-top: 50px;
     overflow: auto;
     clear: both;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   h1 {
     font-size: 22px;
     padding-bottom: 0px;
+  }
+
+  .auth-image {
+    width: 100%;
+    height: 275px;
+    margin-bottom: 10px;
   }
 
   h2 {
